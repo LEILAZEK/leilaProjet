@@ -1,0 +1,321 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+body .titre-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+body .titre-h1 h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    color: white;
+    font-weight: 800;
+}
+
+body .titre-h1 span {
+    color: #bebebe;
+}
+
+body .titre-h1 span a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #bebebe;
+}
+
+body .section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5%;
+    background-color: white;
+}
+
+body .section1 .section1-banner {
+    background-image: url("pic02.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 70vh;
+}
+
+body .section1 .section1-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+body .section1 .section1-header .section1-h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .section1 .section1-header .section1-h2 h2 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+body .section1 .section1-header .section1-line {
+    height: 1px;
+    width: 20%;
+    background-color: #CDCCCD;
+    margin: 20px 0px;
+}
+
+body .section1 .section1-header .section1-span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .section1 .section1-header .section1-span span {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #CDCCCD;
+}
+
+body .section1 .section1-text {
+    padding: 50px 10%;
+    background-color: #F7F6F5;
+}
+
+body .section1 .section1-text p {
+    font-size: 18px;
+    color: #2a2828;
+    font-weight: lighter;
+}
+
+body .section2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5%;
+    background-color: #1E1F23;
+}
+
+body .section2 .section2-container {
+    background-color: #121315;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .section2 .section2-container .section2-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+body .section2 .section2-container .section2-h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .section2 .section2-container .section2-h2 h2 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 26px;
+    color: white;
+}
+
+body .section2 .section2-container .section2-line {
+    height: 1px;
+    width: 20%;
+    background-color: #3E4B46;
+    margin: 20px 0px;
+}
+
+body .section2 .section2-container .section2-span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .section2 .section2-container .section2-span span {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #3E4B46;
+}
+
+body .section2 .section2-container .section2-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .section2 .section2-container .section2-img img {
+    width: 50%;
+    
+}
+
+body .section3 {
+    margin: 0 5%;
+}
+
+body .section3 .section3-container {
+    display: flex;
+}
+
+body .section3 .section3-container .section3-img {
+    flex: 1;
+}
+
+body .section3 .section3-container .section3-img img {
+   width: 100%;
+   height: 100%;
+}
+
+body .section3 .section3-container .section3-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: white;
+}
+
+body .section3 .section3-container .section3-text-container .section3-text {
+    padding: 10% 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+body .section3 .section3-container .section3-text-container .section3-text h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+body .section3 .section3-container .section3-text-container .section3-text p {
+    margin: 0;
+    font-size: 18px;
+    color: #9C9D96;
+}
+
+body .section4-img {
+    position: absolute;
+    right: 60px; 
+}
+ 
+body .section4 {
+    margin: 0 5%;
+}
+
+body .section4 .section4-container {
+    display: flex;
+}  
+
+body .section4 .section4-container .section4-img {
+    flex: 1;
+} 
+
+body .section4 .section4-container .section4-img img {
+    width: 100%;
+    height: 100%;
+} 
+
+body .section4 .section4-container .section4-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: #1E1F23;
+} 
+
+body .section4 .section4-container .section4-text-container .section4-text {
+    padding: 10% 20%;
+    display: flex;
+    flex-direction: column; 
+}
+
+body .section4 .section4-container .section4-text-container .section4-text h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: end;
+    color: white; 
+}
+
+body .section4 .section4-container .section4-text-container .section4-text p {
+    margin: 0;
+    font-size: 18px;
+    color: #56575A;
+    text-align: end; 
+}
+
+body footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body footer .icons {
+    padding: 50px 0px;
+}
+
+body footer .icons i {
+    font-size: 34px;
+    padding: 10px;
+    color: #bebebe;
+}
+
+body footer .copyright {
+    margin-bottom: 50px;
+}
+
+body footer .copyright p {
+    margin: 0;
+    color: #bebebe;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    .section2-img {
+        flex-direction: column;
+    }
+
+    .section2-img img {
+        min-width: 100%;
+    }
+
+    .section3-container {
+        flex-direction: column;
+    }
+
+    .section3-container .section3-img {
+        width: 100%;
+    }
+
+    .section3-container .section3-img img {
+        height: 100%;
+    }
+
+    .section3-container .section3-text-container {
+        flex: none;
+    }
+
+    .section4-container {
+        flex-direction: column-reverse;
+    }
+}
